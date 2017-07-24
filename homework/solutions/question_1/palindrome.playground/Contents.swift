@@ -2,25 +2,47 @@
 
 import UIKit
 
-func paidrome(lines:String) ->Bool
+func palindrome(line:String) ->Bool
 {
-    let length = lines.characters.count
-    for i in 0...Int(length/2)
+    var characterscount = 0
+    for _ in line.characters
     {
-        let front = lines.index(lines.startIndex, offsetBy: i)
-        let back = lines.index(lines.startIndex, offsetBy:length-i-1)
         
-        if lines[front] != lines[back]
-        {
-            return false
-        }
+        characterscount += 1
         
     }
-        return true
+    var array = [Character](repeatElement("a", count: characterscount))
+    var array2 = [Character](repeatElement("b", count: characterscount))
+    var current = 0
+    for char in line.characters
+    {
+        current += 1
+        array[current-1] = char
+        //print(array)
+    }
+    var current2 = characterscount
+    
+    for char2 in line.characters
+    {
+        
+        current2 -= 1
+        array2[current2] = char2
+        //print(array2)
+    }
+   if array == array2
+   {
+    return true
+    }
+   else{
+    return false
+    }
 }
 
 
-paidrome(lines: "annaaa")
-paidrome(lines: "anna")
-paidrome(lines: "Anna")
-paidrome(lines: "racecar")
+
+
+
+palindrome(line: "annaaa")
+palindrome(line: "anna")
+palindrome(line: "Anna")
+palindrome(line: "racecar")
