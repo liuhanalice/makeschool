@@ -10,7 +10,6 @@
 		477EE355D27DFF360A6E64C6 /* Pods_Makestagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A3264BEFD729ACF1F0C2A93 /* Pods_Makestagram.framework */; };
 		C3122C8C1F25ADAC00FFF8C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3122C8B1F25ADAC00FFF8C8 /* AppDelegate.swift */; };
 		C3122C931F25ADAC00FFF8C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3122C921F25ADAC00FFF8C8 /* Assets.xcassets */; };
-		C33276F91F26E0AF00471666 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33276F81F26E0AF00471666 /* ViewController.swift */; };
 		C33276FC1F26E0CC00471666 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C33276FA1F26E0CC00471666 /* GoogleService-Info.plist */; };
 		C33277001F26E0DF00471666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33276FE1F26E0DF00471666 /* LaunchScreen.storyboard */; };
 		C33277011F26E0DF00471666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C33276FF1F26E0DF00471666 /* Main.storyboard */; };
@@ -18,7 +17,12 @@
 		C33277081F26E70200471666 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33277071F26E70200471666 /* LoginViewController.swift */; };
 		C332770A1F2732B500471666 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33277091F2732B500471666 /* User.swift */; };
 		C332770D1F273A1700471666 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C332770C1F273A1700471666 /* CreateUsernameViewController.swift */; };
+		C3EA1FD51F283FBD00683006 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA1FD41F283FBD00683006 /* HomeViewController.swift */; };
+		C3EA1FD71F283FD800683006 /* FindFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA1FD61F283FD800683006 /* FindFriendViewController.swift */; };
+		C3EA1FD91F285A7200683006 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA1FD81F285A7200683006 /* MainTabBarController.swift */; };
 		C3EFD99E1F27A5350026EFDD /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EFD99D1F27A5350026EFDD /* UserService.swift */; };
+		C3EFD9A11F2832C90026EFDD /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EFD9A01F2832C90026EFDD /* Constants.swift */; };
+		C3EFD9A31F2833C70026EFDD /* Storyboard+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EFD9A21F2833C70026EFDD /* Storyboard+Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +30,6 @@
 		C3122C881F25ADAC00FFF8C8 /* Makestagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Makestagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3122C8B1F25ADAC00FFF8C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C3122C921F25ADAC00FFF8C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C33276F81F26E0AF00471666 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Controllers/ViewController.swift; sourceTree = "<group>"; };
 		C33276FA1F26E0CC00471666 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Supporting/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C33276FB1F26E0CC00471666 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Supporting/Info.plist; sourceTree = "<group>"; };
 		C33276FE1F26E0DF00471666 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Storyboards/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,7 +38,12 @@
 		C33277071F26E70200471666 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Controllers/LoginViewController.swift; sourceTree = "<group>"; };
 		C33277091F2732B500471666 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
 		C332770C1F273A1700471666 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateUsernameViewController.swift; path = Controllers/CreateUsernameViewController.swift; sourceTree = "<group>"; };
+		C3EA1FD41F283FBD00683006 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Controllers/HomeViewController.swift; sourceTree = "<group>"; };
+		C3EA1FD61F283FD800683006 /* FindFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindFriendViewController.swift; path = Controllers/FindFriendViewController.swift; sourceTree = "<group>"; };
+		C3EA1FD81F285A7200683006 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		C3EFD99D1F27A5350026EFDD /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserService.swift; path = Services/UserService.swift; sourceTree = "<group>"; };
+		C3EFD9A01F2832C90026EFDD /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Supporting/Constants.swift; sourceTree = "<group>"; };
+		C3EFD9A21F2833C70026EFDD /* Storyboard+Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Storyboard+Utility.swift"; path = "Extensions/Storyboard+Utility.swift"; sourceTree = "<group>"; };
 		D0F747DF0DD5A197EB2CFC7A /* Pods-Makestagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.release.xcconfig"; sourceTree = "<group>"; };
 		E21202C4F5096E92F4F12386 /* Pods-Makestagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Makestagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +96,7 @@
 				C33277041F26E33E00471666 /* Storyboards */,
 				C33277021F26E2B800471666 /* Supporting Files */,
 				C3EFD99F1F27A53E0026EFDD /* Services */,
+				C3EFD9A41F2833CD0026EFDD /* Extensions */,
 			);
 			path = Makestagram;
 			sourceTree = "<group>";
@@ -98,6 +107,7 @@
 				C33276FE1F26E0DF00471666 /* LaunchScreen.storyboard */,
 				C33276FA1F26E0CC00471666 /* GoogleService-Info.plist */,
 				C33276FB1F26E0CC00471666 /* Info.plist */,
+				C3EFD9A01F2832C90026EFDD /* Constants.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -106,8 +116,10 @@
 			isa = PBXGroup;
 			children = (
 				C332770C1F273A1700471666 /* CreateUsernameViewController.swift */,
-				C33276F81F26E0AF00471666 /* ViewController.swift */,
 				C33277071F26E70200471666 /* LoginViewController.swift */,
+				C3EA1FD41F283FBD00683006 /* HomeViewController.swift */,
+				C3EA1FD61F283FD800683006 /* FindFriendViewController.swift */,
+				C3EA1FD81F285A7200683006 /* MainTabBarController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -135,6 +147,14 @@
 				C3EFD99D1F27A5350026EFDD /* UserService.swift */,
 			);
 			name = Services;
+			sourceTree = "<group>";
+		};
+		C3EFD9A41F2833CD0026EFDD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C3EFD9A21F2833C70026EFDD /* Storyboard+Utility.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		FA661A5BBD50F2ABDE43EE7C /* Pods */ = {
@@ -274,10 +294,14 @@
 			files = (
 				C332770A1F2732B500471666 /* User.swift in Sources */,
 				C33277081F26E70200471666 /* LoginViewController.swift in Sources */,
+				C3EA1FD91F285A7200683006 /* MainTabBarController.swift in Sources */,
 				C3EFD99E1F27A5350026EFDD /* UserService.swift in Sources */,
-				C33276F91F26E0AF00471666 /* ViewController.swift in Sources */,
+				C3EA1FD51F283FBD00683006 /* HomeViewController.swift in Sources */,
+				C3EFD9A31F2833C70026EFDD /* Storyboard+Utility.swift in Sources */,
+				C3EFD9A11F2832C90026EFDD /* Constants.swift in Sources */,
 				C332770D1F273A1700471666 /* CreateUsernameViewController.swift in Sources */,
 				C3122C8C1F25ADAC00FFF8C8 /* AppDelegate.swift in Sources */,
+				C3EA1FD71F283FD800683006 /* FindFriendViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
