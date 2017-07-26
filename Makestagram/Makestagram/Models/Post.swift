@@ -21,4 +21,12 @@ class Post {
         self.imageHeight = imageHeight
         self.creationDate = Date()
     }
+    
+    var dictValue: [String : Any] {
+        let createdAgo = creationDate.timeIntervalSince1970
+        
+        return ["image_url" : imageURL,
+                "image_height" : imageHeight,
+                "created_at" : createdAgo]
+    }
 }

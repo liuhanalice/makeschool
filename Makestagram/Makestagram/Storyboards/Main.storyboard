@@ -64,13 +64,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="tab_home_black" id="D8K-Nm-NGK">
-                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
-                    </tabBarItem>
+                    <navigationItem key="navigationItem" id="Atq-Ya-NEp"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gMP-eP-ZSW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-147" y="-375"/>
+            <point key="canvasLocation" x="791.20000000000005" y="-375.56221889055473"/>
         </scene>
         <!--Main Tab Bar Controller-->
         <scene sceneID="Iwo-ue-XoE">
@@ -82,7 +80,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="0Re-bK-F9G" kind="relationship" relationship="viewControllers" id="m9X-f7-J10"/>
+                        <segue destination="83T-3K-0rh" kind="relationship" relationship="viewControllers" id="m9X-f7-J10"/>
                         <segue destination="pwP-xE-M4V" kind="relationship" relationship="viewControllers" id="VsX-JH-TtV"/>
                         <segue destination="13R-1e-Sbd" kind="relationship" relationship="viewControllers" id="tCN-a1-mvN"/>
                     </connections>
@@ -90,6 +88,27 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dB3-rs-hjE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1101" y="-48"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="YL6-8y-faN">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="83T-3K-0rh" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="tab_home_black" id="D8K-Nm-NGK">
+                        <inset key="imageInsets" minX="0.0" minY="7" maxX="0.0" maxY="-7"/>
+                    </tabBarItem>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UVV-UG-UaC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0Re-bK-F9G" kind="relationship" relationship="rootViewController" id="9ci-ue-dAN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cKa-a3-6ea" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-89" y="-376"/>
         </scene>
     </scenes>
     <resources>
