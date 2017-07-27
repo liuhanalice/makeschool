@@ -22,7 +22,7 @@
 		C332770A1F2732B500471666 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33277091F2732B500471666 /* User.swift */; };
 		C332770D1F273A1700471666 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C332770C1F273A1700471666 /* CreateUsernameViewController.swift */; };
 		C37704581F29B7E500FF906D /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37704571F29B7E500FF906D /* PostHeaderCell.swift */; };
-		C3C1257C1F29D59C00D84B0B /* PostActionCell .swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C1257B1F29D59C00D84B0B /* PostActionCell .swift */; };
+		C3E5A6201F2A291C009FA93A /* PostActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E5A61F1F2A291C009FA93A /* PostActionCell.swift */; };
 		C3EA1FD51F283FBD00683006 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA1FD41F283FBD00683006 /* HomeViewController.swift */; };
 		C3EA1FD71F283FD800683006 /* FindFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA1FD61F283FD800683006 /* FindFriendViewController.swift */; };
 		C3EA1FD91F285A7200683006 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA1FD81F285A7200683006 /* MainTabBarController.swift */; };
@@ -53,7 +53,7 @@
 		C33277091F2732B500471666 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
 		C332770C1F273A1700471666 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateUsernameViewController.swift; path = Controllers/CreateUsernameViewController.swift; sourceTree = "<group>"; };
 		C37704571F29B7E500FF906D /* PostHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostHeaderCell.swift; path = Views/PostHeaderCell.swift; sourceTree = "<group>"; };
-		C3C1257B1F29D59C00D84B0B /* PostActionCell .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "PostActionCell .swift"; path = "Views/PostActionCell .swift"; sourceTree = "<group>"; };
+		C3E5A61F1F2A291C009FA93A /* PostActionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostActionCell.swift; path = Views/PostActionCell.swift; sourceTree = "<group>"; };
 		C3EA1FD41F283FBD00683006 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Controllers/HomeViewController.swift; sourceTree = "<group>"; };
 		C3EA1FD61F283FD800683006 /* FindFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindFriendViewController.swift; path = Controllers/FindFriendViewController.swift; sourceTree = "<group>"; };
 		C3EA1FD81F285A7200683006 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
@@ -126,9 +126,9 @@
 		C3140F0D1F29731C007C18B7 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				C3C1257B1F29D59C00D84B0B /* PostActionCell .swift */,
 				C3140F0B1F29730D007C18B7 /* PostImageCell.swift */,
 				C37704571F29B7E500FF906D /* PostHeaderCell.swift */,
+				C3E5A61F1F2A291C009FA93A /* PostActionCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -345,6 +345,7 @@
 				C33277081F26E70200471666 /* LoginViewController.swift in Sources */,
 				C3EA1FD91F285A7200683006 /* MainTabBarController.swift in Sources */,
 				C3EFD99E1F27A5350026EFDD /* UserService.swift in Sources */,
+				C3E5A6201F2A291C009FA93A /* PostActionCell.swift in Sources */,
 				C3EA1FE41F28D05800683006 /* Post.swift in Sources */,
 				C3140F0C1F29730D007C18B7 /* PostImageCell.swift in Sources */,
 				C3140F061F28FCD1007C18B7 /* UIImage+Size.swift in Sources */,
@@ -354,7 +355,6 @@
 				C3EFD9A11F2832C90026EFDD /* Constants.swift in Sources */,
 				C3140F081F28FE53007C18B7 /* StorageReference+Post.swift in Sources */,
 				C332770D1F273A1700471666 /* CreateUsernameViewController.swift in Sources */,
-				C3C1257C1F29D59C00D84B0B /* PostActionCell .swift in Sources */,
 				C3EA1FE21F28CDAD00683006 /* PostService.swift in Sources */,
 				C3122C8C1F25ADAC00FFF8C8 /* AppDelegate.swift in Sources */,
 				C37704581F29B7E500FF906D /* PostHeaderCell.swift in Sources */,

@@ -19,7 +19,7 @@ class HomeViewController: UIViewController
         super.viewDidLoad()
          configureTableView()
         
-        tableView.register(PostActionCell.self, forCellReuseIdentifier: "PostActionCell")
+        //tableView.register(PostActionCell.self, forCellReuseIdentifier: "PostActionCell")
         
         UserService.posts(for: User.current) { (posts) in
             self.posts = posts
