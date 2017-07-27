@@ -1,0 +1,3 @@
+[submodule "Makestagram/Kingfisher"]
+	path = Makestagram/Kingfisher
+	url = https://github.com/onevcat/Kingfisher.git

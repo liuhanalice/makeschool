@@ -11,6 +11,7 @@ import FirebaseAuth
 import FirebaseAuthUI
 import FirebaseDatabase
 
+
 typealias FIRUser = FirebaseAuth.User
 class LoginViewController: UIViewController {
     
