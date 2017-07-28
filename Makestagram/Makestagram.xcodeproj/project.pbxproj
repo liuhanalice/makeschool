@@ -21,10 +21,14 @@
 		C33277081F26E70200471666 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33277071F26E70200471666 /* LoginViewController.swift */; };
 		C332770A1F2732B500471666 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33277091F2732B500471666 /* User.swift */; };
 		C332770D1F273A1700471666 /* CreateUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C332770C1F273A1700471666 /* CreateUsernameViewController.swift */; };
+		C3472B0B1F2ACDBA0035AE8F /* FollowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3472B0A1F2ACDBA0035AE8F /* FollowService.swift */; };
+		C3472B0D1F2AD2D00035AE8F /* FindFriends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3472B0C1F2AD2D00035AE8F /* FindFriends.storyboard */; };
+		C3472B0F1F2AD6920035AE8F /* FindFriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3472B0E1F2AD6920035AE8F /* FindFriendsCell.swift */; };
 		C37704581F29B7E500FF906D /* PostHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37704571F29B7E500FF906D /* PostHeaderCell.swift */; };
 		C3E5A6201F2A291C009FA93A /* PostActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E5A61F1F2A291C009FA93A /* PostActionCell.swift */; };
+		C3E5A6221F2A3490009FA93A /* LikeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E5A6211F2A3490009FA93A /* LikeService.swift */; };
 		C3EA1FD51F283FBD00683006 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA1FD41F283FBD00683006 /* HomeViewController.swift */; };
-		C3EA1FD71F283FD800683006 /* FindFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA1FD61F283FD800683006 /* FindFriendViewController.swift */; };
+		C3EA1FD71F283FD800683006 /* FindFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA1FD61F283FD800683006 /* FindFriendsViewController.swift */; };
 		C3EA1FD91F285A7200683006 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA1FD81F285A7200683006 /* MainTabBarController.swift */; };
 		C3EA1FDD1F287A3D00683006 /* MGPhotoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA1FDC1F287A3D00683006 /* MGPhotoHelper.swift */; };
 		C3EA1FE01F28CC2B00683006 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3EA1FDF1F28CC2B00683006 /* StorageService.swift */; };
@@ -52,10 +56,14 @@
 		C33277071F26E70200471666 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Controllers/LoginViewController.swift; sourceTree = "<group>"; };
 		C33277091F2732B500471666 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
 		C332770C1F273A1700471666 /* CreateUsernameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateUsernameViewController.swift; path = Controllers/CreateUsernameViewController.swift; sourceTree = "<group>"; };
+		C3472B0A1F2ACDBA0035AE8F /* FollowService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FollowService.swift; path = Services/FollowService.swift; sourceTree = "<group>"; };
+		C3472B0C1F2AD2D00035AE8F /* FindFriends.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = FindFriends.storyboard; path = Storyboards/FindFriends.storyboard; sourceTree = "<group>"; };
+		C3472B0E1F2AD6920035AE8F /* FindFriendsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindFriendsCell.swift; path = Views/FindFriendsCell.swift; sourceTree = "<group>"; };
 		C37704571F29B7E500FF906D /* PostHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostHeaderCell.swift; path = Views/PostHeaderCell.swift; sourceTree = "<group>"; };
 		C3E5A61F1F2A291C009FA93A /* PostActionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostActionCell.swift; path = Views/PostActionCell.swift; sourceTree = "<group>"; };
+		C3E5A6211F2A3490009FA93A /* LikeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LikeService.swift; path = Services/LikeService.swift; sourceTree = "<group>"; };
 		C3EA1FD41F283FBD00683006 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Controllers/HomeViewController.swift; sourceTree = "<group>"; };
-		C3EA1FD61F283FD800683006 /* FindFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindFriendViewController.swift; path = Controllers/FindFriendViewController.swift; sourceTree = "<group>"; };
+		C3EA1FD61F283FD800683006 /* FindFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FindFriendsViewController.swift; path = Controllers/FindFriendsViewController.swift; sourceTree = "<group>"; };
 		C3EA1FD81F285A7200683006 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		C3EA1FDC1F287A3D00683006 /* MGPhotoHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MGPhotoHelper.swift; path = Makestagram/Helpers/MGPhotoHelper.swift; sourceTree = "<group>"; };
 		C3EA1FDF1F28CC2B00683006 /* StorageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StorageService.swift; path = Services/StorageService.swift; sourceTree = "<group>"; };
@@ -129,6 +137,7 @@
 				C3140F0B1F29730D007C18B7 /* PostImageCell.swift */,
 				C37704571F29B7E500FF906D /* PostHeaderCell.swift */,
 				C3E5A61F1F2A291C009FA93A /* PostActionCell.swift */,
+				C3472B0E1F2AD6920035AE8F /* FindFriendsCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -150,7 +159,7 @@
 				C332770C1F273A1700471666 /* CreateUsernameViewController.swift */,
 				C33277071F26E70200471666 /* LoginViewController.swift */,
 				C3EA1FD41F283FBD00683006 /* HomeViewController.swift */,
-				C3EA1FD61F283FD800683006 /* FindFriendViewController.swift */,
+				C3EA1FD61F283FD800683006 /* FindFriendsViewController.swift */,
 				C3EA1FD81F285A7200683006 /* MainTabBarController.swift */,
 			);
 			name = "View Controllers";
@@ -160,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				C33276FF1F26E0DF00471666 /* Main.storyboard */,
+				C3472B0C1F2AD2D00035AE8F /* FindFriends.storyboard */,
 				C3140F091F29063E007C18B7 /* Home.storyboard */,
 				C33277051F26E5E000471666 /* Login.storyboard */,
 			);
@@ -190,6 +200,8 @@
 				C3EFD99D1F27A5350026EFDD /* UserService.swift */,
 				C3EA1FDF1F28CC2B00683006 /* StorageService.swift */,
 				C3EA1FE11F28CDAD00683006 /* PostService.swift */,
+				C3E5A6211F2A3490009FA93A /* LikeService.swift */,
+				C3472B0A1F2ACDBA0035AE8F /* FollowService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -279,6 +291,7 @@
 				C3122C931F25ADAC00FFF8C8 /* Assets.xcassets in Resources */,
 				C33277011F26E0DF00471666 /* Main.storyboard in Resources */,
 				C33277001F26E0DF00471666 /* LaunchScreen.storyboard in Resources */,
+				C3472B0D1F2AD2D00035AE8F /* FindFriends.storyboard in Resources */,
 				C3140F0A1F29063E007C18B7 /* Home.storyboard in Resources */,
 				C33276FC1F26E0CC00471666 /* GoogleService-Info.plist in Resources */,
 				C33277061F26E5E000471666 /* Login.storyboard in Resources */,
@@ -340,14 +353,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3472B0B1F2ACDBA0035AE8F /* FollowService.swift in Sources */,
 				C332770A1F2732B500471666 /* User.swift in Sources */,
 				C3EA1FE01F28CC2B00683006 /* StorageService.swift in Sources */,
 				C33277081F26E70200471666 /* LoginViewController.swift in Sources */,
 				C3EA1FD91F285A7200683006 /* MainTabBarController.swift in Sources */,
 				C3EFD99E1F27A5350026EFDD /* UserService.swift in Sources */,
 				C3E5A6201F2A291C009FA93A /* PostActionCell.swift in Sources */,
+				C3E5A6221F2A3490009FA93A /* LikeService.swift in Sources */,
 				C3EA1FE41F28D05800683006 /* Post.swift in Sources */,
 				C3140F0C1F29730D007C18B7 /* PostImageCell.swift in Sources */,
+				C3472B0F1F2AD6920035AE8F /* FindFriendsCell.swift in Sources */,
 				C3140F061F28FCD1007C18B7 /* UIImage+Size.swift in Sources */,
 				C3EA1FD51F283FBD00683006 /* HomeViewController.swift in Sources */,
 				C3EA1FDD1F287A3D00683006 /* MGPhotoHelper.swift in Sources */,
@@ -358,7 +374,7 @@
 				C3EA1FE21F28CDAD00683006 /* PostService.swift in Sources */,
 				C3122C8C1F25ADAC00FFF8C8 /* AppDelegate.swift in Sources */,
 				C37704581F29B7E500FF906D /* PostHeaderCell.swift in Sources */,
-				C3EA1FD71F283FD800683006 /* FindFriendViewController.swift in Sources */,
+				C3EA1FD71F283FD800683006 /* FindFriendsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

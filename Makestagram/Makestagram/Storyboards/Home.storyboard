@@ -11,7 +11,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home View Controller-->
+        <!--Makestagram-->
         <scene sceneID="ecV-tY-bwU">
             <objects>
                 <viewController id="0Re-bK-F9G" customClass="HomeViewController" customModule="Makestagram" customModuleProvider="target" sceneMemberID="viewController">
@@ -120,6 +120,7 @@
                                                         <constraint firstAttribute="width" secondItem="jq7-yo-SSY" secondAttribute="height" multiplier="27:23" id="acf-MJ-em9"/>
                                                     </constraints>
                                                     <state key="normal" image="btn_heart_black_outline"/>
+                                                    <state key="selected" image="btn_heart_red_solid"/>
                                                     <connections>
                                                         <action selector="likeButtonTapped:" destination="DOR-LP-zSR" eventType="touchUpInside" id="ikf-vi-YAJ"/>
                                                     </connections>
@@ -161,7 +162,7 @@
                             <constraint firstItem="0Fk-Br-hNP" firstAttribute="leading" secondItem="UJa-X3-mbx" secondAttribute="leadingMargin" id="kJc-yJ-BD7"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="Atq-Ya-NEp"/>
+                    <navigationItem key="navigationItem" title="Makestagram" id="Atq-Ya-NEp"/>
                     <connections>
                         <outlet property="tableView" destination="0Fk-Br-hNP" id="NRi-WG-N1B"/>
                     </connections>
@@ -195,6 +196,7 @@
     </scenes>
     <resources>
         <image name="btn_heart_black_outline" width="24" height="24"/>
+        <image name="btn_heart_red_solid" width="24" height="24"/>
         <image name="btn_options_black" width="24" height="24"/>
         <image name="tab_home_black" width="25" height="25"/>
     </resources>
